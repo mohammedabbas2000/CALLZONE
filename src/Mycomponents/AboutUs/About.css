@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aboutus-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6% auto;
+    max-width: 95%;
+    color: #fff;
+    text-align: center;
+    min-height: 42.625rem;
+    background: linear-gradient(rgba(3, 11, 85, 0.9), rgba(7, 19, 131, 0.7)), url('../../Asset/aboutus.png') 0% 0% no-repeat padding-box;
+    border-radius: 120px 120px 5px 120px;
+    opacity: 0.83;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutus-section .line {
+    background-color: #fff;
+}
+
+.about-content{
+    max-width: 42.188rem;
+}
+
+.about-text {
+    margin-bottom: 2rem;
+    text-align: center;
+    font: normal normal bold 16px/26px Inter;
+    letter-spacing: 1.78px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.about-heading {
+    text-align: center;
+    font: normal normal bold 36px/44px Inter;
+    letter-spacing: 0.3px;
+    opacity: 1;
+}
+
+.aboutus-section p{
+    margin-top: 2rem;
+}

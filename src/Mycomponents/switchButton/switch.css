@@ -1,0 +1,27 @@
+.switch-btn {
+    max-width: 20%;
+    margin: 3rem auto;
+    justify-content: space-around;
+    align-items: center;
+    font: normal normal bold 16px/16px Inter;
+    letter-spacing: 0px;
+    color: #323232;
+    opacity: 1;
+}
+
+#flexSwitchCheckDefault {
+    width: 68px;
+    height: 36px;
+    /* UI Properties */
+    border-radius: 28px;
+    opacity: 1;
+    border: none;
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+
+.form-switch .form-check-input:checked {
+    background-image: url('../../Asset/check-circle-icon.svg');
+}

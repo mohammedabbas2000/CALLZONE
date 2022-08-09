@@ -1,0 +1,91 @@
+.pakage {
+    margin: 10px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 606px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px dashed #F2F2F2;
+    border-radius: 14px;
+    opacity: 1;
+}
+
+.pakage:hover {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 40px #3F246419;
+    border-radius: 40px 40px 4px 40px;
+    opacity: 1;
+}
+
+.pakage-head {
+    margin-bottom: 10px !important;
+    border-bottom: 1px solid #96969657;
+}
+
+.price b {
+    text-align: left;
+    font: normal normal bold 48px/59px Inter;
+    letter-spacing: 0px;
+    color: #0F32C5;
+    opacity: 1;
+}
+
+.price span {
+    margin-left: 4px;
+    text-align: left;
+    font: normal normal normal 16px/20px Inter;
+    letter-spacing: 0px;
+    color: #969696;
+    opacity: 1;
+}
+
+.pak-title h1 {
+    text-align: left;
+    font: normal normal bold 32px/39px Inter;
+    letter-spacing: 0px;
+    color: #323232;
+    opacity: 1;
+    margin: 12px 0px;
+}
+
+.pakage p {
+    padding-bottom: 20px;
+    max-width: 100% !important;
+    text-align: left !important;
+    margin: 0px !important;
+}
+
+.pakage-body {
+    padding: 10px 0px;
+}
+
+.pakage-body p{
+    padding-top: 15px !important;
+    padding-bottom: 0 !important;
+}
+
+.pakage input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #0F32C5;
+    border-radius: 60px;
+    opacity: 1;
+    color: #0F32C5;
+    box-shadow: none;
+}
+
+.pakage:hover input {
+    background: #0F32C5 0% 0% no-repeat padding-box;
+    border-radius: 60px;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+svg {
+    width: 22px;
+    fill: #0F32C5;
+    margin-right: 10px;
+}

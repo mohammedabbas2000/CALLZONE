@@ -1,0 +1,10 @@
+.pricing-Head p {
+    text-align: center;
+    margin: auto;
+    font: normal normal normal 16px/26px Inter;
+    letter-spacing: 0.2px;
+    color: #838383;
+    opacity: 1;
+    max-width: 40%;
+}
+
